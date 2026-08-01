@@ -1,7 +1,26 @@
 aid: partyphile
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/partyphile.png
 name: Partyphile
-description: Partyphile is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Partyphile (formerly Guestlist.ph) is a Manila, Philippines nightlife and events
+  startup that built a consumer mobile app for discovering clubs, bars, parties, and events,
+  getting on club guest lists to waive cover charges and skip lines, and booking VIP tables.
+  Founded by Ron Baetiong out of a University of Santo Tomas thesis, it raised seed funding from
+  500 Startups (500 Global) and Kickstart Ventures and planned Southeast Asia expansion. It was
+  surfaced as a 500 Global portfolio company and added to the API Evangelist network. As of this
+  enrichment pass the company presents no public developer or API surface — its primary domain
+  partyphile.com no longer resolves and partyphile.ph is unreachable — so no API artifacts exist to
+  harvest; this remains a company identity profile.
 url: https://raw.githubusercontent.com/api-evangelist/partyphile/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Events
+- Nightlife
+- Ticketing
+- Entertainment
+- Mobile App
+- Consumer
+- Philippines
+- Startup
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,10 @@ maintainers:
 common:
 - type: Website
   url: https://partyphile.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: Defunct consumer nightlife/events app; no live site or API surface. partyphile.com
+    does not resolve; partyphile.ph unreachable (TLS/empty reply). Identity hygiene only.
